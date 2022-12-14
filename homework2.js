@@ -57,15 +57,6 @@ function Person(name, age) {
         this.age += years;
     }
 }
-  
-// Print info method using arrow function
-// Person.prototype.printInfo = () => {
-//     console.log(`Name: ${this.name}, Age: ${this.age}`);
-// }
- 
-// Person.prototype.incrementAge = (years) => {
-//     this.age += years;
-// }
 
 const person1 = new Person("John Doe", 30);
 const person2 = new Person("Jane Doe", 35);
